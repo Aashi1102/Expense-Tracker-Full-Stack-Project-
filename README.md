@@ -124,8 +124,7 @@ POST /analytics/
 ### 1. Clone Repo
 
 ```
-git clone https://github.com/your-username/expense-tracker.git
-cd expense-tracker
+https://github.com/Aashi1102/Expense-Tracker-Full-Stack-Project-/tree/main
 ```
 
 ### 2. Backend Setup
