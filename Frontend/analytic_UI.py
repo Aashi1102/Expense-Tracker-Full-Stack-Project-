@@ -22,19 +22,6 @@ def analytics_tab():
             "end_date": end_date.strftime("%Y-%m-%d")
         }
 
-        # response = requests.post(f"{API_URL}/analytics/", json=payload)
-        # # response = response.json()
-        # if response.status_code == 200:
-        #     try:
-        #         data = response.json()
-        #     except ValueError:
-        #         st.error("Invalid JSON response from server")
-        #         return
-        # else:
-        #     st.error(f"API Error: {response.status_code}")
-        #     st.text(response.text)
-        #     return
-        
         response = requests.post(f"{API_URL}/analytics/", json=payload, timeout=5)
 
         if response.status_code != 200:
