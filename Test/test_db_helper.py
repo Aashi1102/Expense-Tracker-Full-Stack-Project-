@@ -1,5 +1,5 @@
 # test_db_helper.py
-# this 3 line use becoase project have two backend files so it helps this file to find main backend db_helper file
+# this 3 line use because project have two backend files so it helps this file to find main backend db_helper file
 import os
 import sys
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
