@@ -2,7 +2,7 @@
 
 A full-stack Expense Tracker application built using **Streamlit (Frontend)**, **FastAPI (Backend)**, and **MySQL (Database)**.
 
-This project allows users to **add, update, view, and analyze daily expenses** with a simple and interactive UI.
+🚀 This project enables users to **add, update, manage, and analyze daily expenses** through an intuitive and interactive interface.
 
 ---
 
@@ -10,21 +10,21 @@ This project allows users to **add, update, view, and analyze daily expenses** w
 
 Frontend (Streamlit) → Backend (FastAPI) → Database (MySQL)
 
-* **Frontend**: User Interface (UI)
-* **Backend**: Business logic & API handling
-* **Database**: Data storage
+* **Frontend** → Handles UI and user interaction
+* **Backend** → Manages API logic and data processing
+* **Database** → Stores persistent expense data
 
 ---
 
 ## 🚀 Features
 
-✅ Add and update daily expenses
+✅ Add & update daily expenses
 ✅ Dynamic row-based input system
 ✅ Delete expenses easily
 ✅ Auto-calculated total spending
 ✅ Category-wise analytics
-✅ Data persistence using MySQL
-✅ Clean API structure using FastAPI
+✅ Persistent storage using MySQL
+✅ Clean REST API using FastAPI
 
 ---
 
@@ -37,6 +37,16 @@ Frontend (Streamlit) → Backend (FastAPI) → Database (MySQL)
 | Database   | MySQL             |
 | API Calls  | Requests (Python) |
 | Validation | Pydantic          |
+
+---
+
+## 📸 Screenshots (Add This 👇)
+
+> *(Add your app screenshots here for better visibility)*
+
+* Add Expense UI
+* Analytics Dashboard
+* Dynamic Row Input
 
 ---
 
@@ -57,6 +67,7 @@ Expense-Tracker/
 ├── database/
 │   ├── schema.sql
 │
+├── requirements.txt
 └── README.md
 ```
 
@@ -64,23 +75,23 @@ Expense-Tracker/
 
 ## 🔁 How It Works
 
-### 1. Load Data
+### 1️⃣ Load Data
 
 * User selects a date
 * Frontend sends GET request
 * Backend fetches data from MySQL
-* Data is displayed in UI
+* Data displayed in UI
 
-### 2. Edit Data
+### 2️⃣ Edit Data
 
 * User adds/updates rows
-* Stored in `session_state`
+* Stored temporarily using `session_state`
 
-### 3. Save Data
+### 3️⃣ Save Data
 
 * Frontend sends POST request
-* Backend replaces old data
-* New data stored in DB
+* Backend replaces old records
+* Updated data stored in database
 
 ---
 
@@ -110,24 +121,26 @@ POST /analytics/
 
 **Table: expenses**
 
-| Column       | Type  |
-| ------------ | ----- |
-| expense_date | DATE  |
-| amount       | INT   |
-| category     | TEXT  |
-| notes        | TEXT  |
+| Column       | Type          |
+| ------------ | ------------- |
+| id           | INT (PK)      |
+| expense_date | DATE          |
+| amount       | INT           |
+| category     | VARCHAR       |
+| notes        | VARCHAR       |
 
 ---
 
 ## ⚙️ Setup Instructions
 
-### 1. Clone Repo
+### 1️⃣ Clone Repository
 
 ```
-https://github.com/Aashi1102/Expense-Tracker-Full-Stack-Project-/tree/main
+git clone https://github.com/Aashi1102/Expense-Tracker-Full-Stack-Project-.git
+cd Expense-Tracker-Full-Stack-Project-
 ```
 
-### 2. Backend Setup
+### 2️⃣ Backend Setup
 
 ```
 cd backend
@@ -135,36 +148,37 @@ pip install -r requirements.txt
 uvicorn server:app --reload
 ```
 
-### 3. Frontend Setup
+### 3️⃣ Frontend Setup
 
 ```
 cd frontend
 streamlit run app.py
 ```
 
-### 4. Database Setup
+### 4️⃣ Database Setup
 
-* Create MySQL database
-* Run schema.sql
+* Open MySQL Workbench
+* Run `database/schema.sql`
 
 ---
 
 ## 🎯 Key Learning Outcomes
 
-* Full-stack architecture understanding
-* API design using FastAPI
+* Full-stack architecture (Frontend + Backend + DB)
+* REST API development using FastAPI
 * State management using Streamlit
-* Database integration (CRUD operations)
-* Real-world project structure
+* MySQL integration & CRUD operations
+* Real-world project structuring
 
 ---
 
 ## 📌 Future Improvements
 
-* User authentication
-* Monthly reports
-* Charts & visual dashboards
-* Export to Excel/PDF
+* 🔐 User authentication system
+* 📊 Interactive dashboards & charts
+* 📅 Monthly/Yearly reports
+* 📥 Export to Excel / PDF
+* 🌐 Deployment (Render / Railway)
 
 ---
 
@@ -174,4 +188,4 @@ streamlit run app.py
 
 ---
 
-⭐ If you like this project, don't forget to star the repo!
+⭐ If you found this useful, consider giving it a star!
