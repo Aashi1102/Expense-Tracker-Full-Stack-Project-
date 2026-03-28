@@ -113,7 +113,7 @@ POST /analytics/
 | Column       | Type  |
 | ------------ | ----- |
 | expense_date | DATE  |
-| amount       | FLOAT |
+| amount       | INT   |
 | category     | TEXT  |
 | notes        | TEXT  |
 
