@@ -42,7 +42,11 @@ Frontend (Streamlit) → Backend (FastAPI) → Database (MySQL)
 
 ## 📸 Screenshots (Add This 👇)
 
-> *(Add your app screenshots here for better visibility)*
+<img width="1761" height="1001" alt="Screenshot 2026-03-28 132104" src="https://github.com/user-attachments/assets/00a918c9-f91e-408a-a5fc-87991ac13529" />
+
+
+<img width="917" height="844" alt="Screenshot 2026-03-28 132145" src="https://github.com/user-attachments/assets/c93e3690-9ed5-481a-8d02-86901dfa831f" />
+
 
 * Add Expense UI
 * Analytics Dashboard
