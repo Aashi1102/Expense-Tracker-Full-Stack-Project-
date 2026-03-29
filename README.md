@@ -42,11 +42,8 @@ Frontend (Streamlit) → Backend (FastAPI) → Database (MySQL)
 
 ## 📸 Screenshots (Add This 👇)
 
-<img width="1761" height="1001" alt="Screenshot 2026-03-28 132104" src="https://github.com/user-attachments/assets/00a918c9-f91e-408a-a5fc-87991ac13529" />
-
-
-<img width="917" height="844" alt="Screenshot 2026-03-28 132145" src="https://github.com/user-attachments/assets/c93e3690-9ed5-481a-8d02-86901dfa831f" />
-
+<img width="630" height="814" alt="Screenshot 2026-03-28 132145" src="https://github.com/user-attachments/assets/131465b0-8961-4763-92c0-ba36d19682d9" />
+<img width="624" height="798" alt="Screenshot 2026-03-28 204040" src="https://github.com/user-attachments/assets/cf206e46-6108-4322-b111-d448f7a59f48" />
 
 * Add Expense UI
 * Analytics Dashboard
